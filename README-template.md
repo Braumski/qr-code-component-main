@@ -5,99 +5,42 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
+
+  I started with the card, but I had to figure out how to center something within the entire html document, I had to set the html to flex and I set it to justify-center and set the flex direction to column. I can't believe I didnt even know how to center within an html doc. Getting the image to fit was difficult too, but I learned that you set the height to auto and you make the width a percentage of its container or however many pixels you want. I strict width and an auto height is very useful.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+I had to refer to some guides to figure out how to make an image fit neatly into its parent box. I also had to lookup how I would center content on an entire html page. I couldve just used the html page as the parent element and flex boxed it, and I should have known that, but I reached for googling how to do it too quickly. I shouldve taken more time to think about its because thats something I definitely could have done without looking it up.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I feel like this could have been done with a lot less CSS code... The image is so simple yet my code is pretty heavy... Also using position-relative on the paragraph did not seem like the proper solution, but it worked. I feel like there was somethign else I could have done.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I want CSS to become second nature and I need to practice how to micro-manipulate text and image to get the absolute exact sizes im looking for. I also need to figure out how to layout pages without referring to a sheet with flex box and grid. I guess these will come with practice.
+
+Javascript is what I need to move on to next, but I need more of these frontend mentor practice guides for my css first.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+https://css-tricks.com/centering-css-complete-guide/
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+This was great for helping me understand that there are actually many ways to center something in CSS. I went with the flexbox route because it seemed to have the fewest bits of code. Hopefully that was the best way to do it.
 
-## Author
+https://www.w3schools.com/css/css_rwd_images.asp
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+I was setting the width and height to a strict amount of pixels and I didn't really have an idea of how to properly fit the image into the card div that I was making. This website helped me clear up how to make a responsive image and I hope I don't forget this from here on out.
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
