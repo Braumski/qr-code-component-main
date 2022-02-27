@@ -1,0 +1,45 @@
+html{
+    background-color: rgb(220, 246, 255);
+    box-sizing:border-box;
+    height:100%;
+    display:grid;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family:'Outfit', sans-serif;
+}
+
+.card{
+    background:rgb(255, 255, 255);
+    margin: auto;
+    height:420px;
+    width:260px;
+    border-radius: 20px;
+    padding:1rem;
+}
+img{
+    border-radius: 10px;
+    width:100%;
+    height:auto;
+    margin:0 auto;
+}
+.attribution{
+    display:block;
+    text-align: center;
+    position:relative;
+    top: 100px;
+}
+h1, p{
+    padding:0 10px;
+    text-align: center;
+}
+h1{
+    font-size: 1.2rem;
+}
+p{
+    color:gray;
+    display:block;
+    font-size:0.9rem;
+    position:relative;
+    top:10px;
+}
